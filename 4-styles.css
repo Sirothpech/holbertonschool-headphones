@@ -547,16 +547,6 @@ button.button:hover {
     }
 
     @media (max-width: 480px) {
-        /* Réglez le nombre de colonnes sur une pour .whatwedo */
-        .whatwedo .content {
-            flex-direction: column;
-        }
-    
-        /* Réglez la largeur des éléments sur 100% pour les afficher en colonne pour .whatwedo */
-        .whatwedo .item {
-            width: 100%;
-        }
-    
         /* Réglez le nombre de colonnes sur une pour .our-results */
         .our-results .content {
             flex-direction: column;
